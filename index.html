@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Javascript</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
   </head>
   <body>
     <header id="header">
@@ -17,12 +18,18 @@
       </p>
     </header>
     <main id="main">
-      <section>
-        <h2>Calculatrice</h2>
-        <p>
-          Une calculatrice simple, avec les opérations de base.<br />
-          <a href="calculatrice.html">Voir le projet</a>
-        </p>
+      <section id="quotes">
+        <h2>Les citations JavaScriptiennes</h2>
+        <div id="TextAndQuotes">
+          <i class="fas fa-quote-left"></i>
+          <p id="quotesText">Javascript c'est cool.</p>
+          <i class="fas fa-quote-right"></i>
+        </div>
+        <p id="quotesAuthor">Benoit Marchand</p>
+        <div id="buttonContainer">
+          <button id="quotesButton">Nouvelle citation</button>
+          <button id="quotesReader">Lire la citation</button>
+        </div>
       </section>
       <section>
         <h2>Horloge</h2>
@@ -114,4 +121,5 @@
     </footer>
   </body>
   <script src="./script/script.js"></script>
+  <script src="./fontawesome-free-6.4.0-web/js/all.min.js"></script>
 </html>
