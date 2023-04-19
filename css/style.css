@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "nerkoOne";
+}
+@font-face {
+  font-family: "mansalva";
+  src: url("../fonts/Mansalva.ttf");
+}
+@font-face {
+  font-family: "sueEllenFrancisco";
+  src: url("../fonts/SueEllenFrancisco.ttf");
+}
+/* 
+------------>   HEADER   <------------
+*/
+header {
+  background: #000000;
+  border-bottom: 1px solid #000000;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#headerH1 {
+  font-family: "mansalva";
+  font-size: 9vw;
+  text-align: center;
+  min-width: 300px;
+}
+#headerH1 span {
+  font-family: "mansalva";
+  font-size: 9vw;
+  text-align: center;
+  min-width: 300px;
+}
+#headerP,
+#headerP strong {
+  font-family: "sueEllenFrancisco";
+  text-align: center;
+  font-size: 25px;
+  font-weight: 100;
+  min-width: 300px;
+}
+main {
+  height: auto;
+  width: 100%;
+  background: #105b20;
+}
