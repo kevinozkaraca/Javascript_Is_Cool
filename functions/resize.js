@@ -3,7 +3,7 @@ function mainMargin() {
     setTimeout(() => {
         const main = document.querySelector('main');
         const header = document.querySelector('header');
-        main.style.marginTop = `${header.clientHeight}px`;
+        main.style.marginTop = `${header.clientHeight + 25}px`;
     }, 500);
 }
 mainMargin();
