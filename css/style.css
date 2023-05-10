@@ -15,6 +15,24 @@
   font-family: "lato";
   src: url("../fonts/Lato.ttf");
 }
+
+/*
+------------>   ROOT OF LIGHT DARK MODE  <------------
+*/
+:root {
+  --primary-color-light-mode: #ffffff;
+  --primary-color-dark-mode: #000000;
+  --secondary-color-light-mode: #f3b32b;
+  --secondary-color-dark-mode: #f3b32b;
+  --background-color-light-mode: #ffffff;
+  --background-color-dark-mode: #000000;
+  --text-color-light-mode: #000000;
+  --text-color-dark-mode: #ffffff;
+  --text-color-light-mode-2: #000000;
+  --text-color-dark-mode-2: #ffffff;
+  --icon-color-light-mode: #000000;
+  --icon-color-dark-mode: #ffffff;
+}
 /* 
 ------------>   HEADER   <------------
 */
@@ -57,6 +75,20 @@ main {
   min-width: 300px;
   height: auto;
   width: 100%;
+}
+/*
+------------>   SECTIONS   <------------
+*/
+section {
+  width: 95%;
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border: #000000 3px solid;
+  align-items: center;
+  padding: 1em;
+  border-radius: 10px;
 }
 /* 
 ------------>   QUOTES   <------------
@@ -130,3 +162,6 @@ main {
   cursor: pointer;
   color: black;
 }
+/* 
+------------>   LIGHT DARK MODE   <------------
+*/
